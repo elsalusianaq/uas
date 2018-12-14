@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tvTupperware"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:hint="Tupperware"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgminum"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/tvTupperware"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/minum" />
+
+        <ImageView
+            android:id="@+id/imageview_cover_art"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imageview_favorite"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignBottom="@+id/imgminum"
+            android:layout_gravity="bottom|right" />
+
+        <TextView
+            android:id="@+id/tvIdTupperware"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvIdTupperware"
+            android:layout_alignTop="@+id/imgminum"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgminum"
+            android:hint="Id Tupperware"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvIdTupperware"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgminum"
+            android:hint="nama :"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvnamaContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvnama"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgminum"
+            android:hint="blossom"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvjenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvnamaContent"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgminum"
+            android:hint="jenis tupperware :"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvjenisContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvjenis"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgminum"
+            android:hint="tempat minum"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvWarna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvjenisContent"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgminum"
+            android:hint="Warna tupperware :"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvWarnaContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvWarna"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgminum"
+            android:hint="hijau"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvWarnaContent"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgminum"
+            android:hint="harga :"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHargaContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvHarga"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgminum"
+            android:hint="30000"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
